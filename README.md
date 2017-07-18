@@ -38,11 +38,11 @@ The program will use your webcam to scan objects and measure its width. To do th
 
 
 To run this program:
-python object_size.py --camera INDEX_OF_YOUR_WEBCAM --width KNOWN_WIDTH
+$ python object_size.py --camera INDEX_OF_YOUR_WEBCAM --width KNOWN_WIDTH
 
 
 Example:
-python object_size.py --camera 0 --width 2.5
+$ python object_size.py --camera 0 --width 2.5
 
 
 distance_to_camera.py
@@ -51,7 +51,19 @@ distance_to_camera.py
 This program uses Your webcam to scan an object and measure its distance to the camera. To do that You'll have to take a shot of the object pressing ESC in a known distance and have its width known. Then input the values in the command line to see the camera scanning the object and measuring its distance to the camera.
 
 To run this program:
-python distance_to_camera.py
+$ python distance_to_camera.py
+
+detect_shapes.py
+
+This code uses your webcam to scan an object and classsifies it shape if it is a circle, square, rectangle, triangle, pentagnum, etc.
+
+To run this program:
+$ python detect_shapes.py --camera INDEX_OF_YOUR_WEBCAM
+
+
+Example:
+$ python detect_shapes.py --camera 0
+
 
 This project was based on:
 http://www.pyimagesearch.com/2016/02/08/opencv-shape-detection/
