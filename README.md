@@ -2,8 +2,12 @@
 RoboVision is a student project that aims to implement a variety of image processing functions in a ROS environment.
 
 # ObjectTracker
+The ObjectTracker is used to outline objects, return their color and centroid position.
+This project requires OpenCV.
+To run it, first you have to set calibrationMode to true, in multipleObjectTracking.cpp. Then run it and adjust the HSV sliders until you can recognize objects in the filtered image view. Adjust the values obtained in the sliders in the code and rebuild it.
 
-
+# ROS-Webcam
+The ROS-Webcam is a catkin workspace with the usb_cam package installed. It requires Indigo ROS
 
 # ObjectMeasurer
 The program will use your webcam to scan objects and measure its width. To do that you have to have a reference object with known width being the first object show, from left to right. Then it will measure other objects.
