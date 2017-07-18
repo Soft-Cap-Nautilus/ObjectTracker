@@ -6,8 +6,19 @@ The ObjectTracker is used to outline objects, return their color and centroid po
 This project requires OpenCV.
 To run it, first you have to set calibrationMode to true, in multipleObjectTracking.cpp. Then run it and adjust the HSV sliders until you can recognize objects in the filtered image view. Adjust the values obtained in the sliders in the code and rebuild it.
 
+This project was based on:
+https://github.com/akaifi/MultiObjectTrackingBasedOnColor
+
 # ROS-Webcam
-The ROS-Webcam is a catkin workspace with the usb_cam package installed. It requires Indigo ROS
+The ROS-Webcam is a catkin workspace with the usb_cam package installed. It requires Indigo ROS, on Ubuntu 14.04. 
+To use it put the catkin_ws directory in your home, setup source catkin_ws/devel/setup.bash, and run
+$ roslaunch usb_cam usb_cam-test.launch video_device:=dev/video0
+Change your camera device accordingly.
+
+Equivalently, if You wish, You can setup everything through the usb_cam_setup.sh script included. Just adjust its permissions and run it, and everything should be installed.
+
+The used usb_cam package is from:
+https://github.com/ros-drivers/usb_cam
 
 # ObjectMeasurer
 The program will use your webcam to scan objects and measure its width. To do that you have to have a reference object with known width being the first object show, from left to right. Then it will measure other objects.
