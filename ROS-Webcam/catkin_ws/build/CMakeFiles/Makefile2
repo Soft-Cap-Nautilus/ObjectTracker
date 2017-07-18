@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iuro/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/tuniks/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iuro/catkin_ws/build
+CMAKE_BINARY_DIR = /home/tuniks/catkin_ws/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/clean_test_results.dir
@@ -59,15 +59,15 @@ CMAKE_BINARY_DIR = /home/iuro/catkin_ws/build
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target clean_test_results"
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -90,15 +90,15 @@ clean: CMakeFiles/clean_test_results.dir/clean
 CMakeFiles/download_extra_data.dir/all:
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target download_extra_data"
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -121,15 +121,15 @@ clean: CMakeFiles/download_extra_data.dir/clean
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -152,15 +152,15 @@ clean: CMakeFiles/doxygen.dir/clean
 CMakeFiles/run_tests.dir/all:
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -183,15 +183,15 @@ clean: CMakeFiles/run_tests.dir/clean
 CMakeFiles/tests.dir/all:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -230,15 +230,15 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles  1
 	@echo "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -261,15 +261,15 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles  2
 	@echo "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -284,416 +284,6 @@ gtest/CMakeFiles/gtest_main.dir/clean:
 # clean rule for target.
 clean: gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory rbx1/rbx1
-
-# Convenience name for "all" pass in the directory.
-rbx1/rbx1/all:
-.PHONY : rbx1/rbx1/all
-
-# Convenience name for "clean" pass in the directory.
-rbx1/rbx1/clean: rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : rbx1/rbx1/clean
-
-# Convenience name for "preinstall" pass in the directory.
-rbx1/rbx1/preinstall:
-.PHONY : rbx1/rbx1/preinstall
-
-#=============================================================================
-# Target rules for target rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir
-
-# All Build rule for target.
-rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/build.make rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/build.make rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
-	@echo "Built target _catkin_empty_exported_target"
-.PHONY : rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/all
-
-# Build rule for subdir invocation for target.
-rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-.PHONY : rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : _catkin_empty_exported_target
-
-# clean rule for target.
-rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/build.make rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/clean
-
-# clean rule for target.
-clean: rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory rbx1/rbx1_bringup
-
-# Convenience name for "all" pass in the directory.
-rbx1/rbx1_bringup/all:
-.PHONY : rbx1/rbx1_bringup/all
-
-# Convenience name for "clean" pass in the directory.
-rbx1/rbx1_bringup/clean:
-.PHONY : rbx1/rbx1_bringup/clean
-
-# Convenience name for "preinstall" pass in the directory.
-rbx1/rbx1_bringup/preinstall:
-.PHONY : rbx1/rbx1_bringup/preinstall
-
-#=============================================================================
-# Directory level rules for directory rbx1/rbx1_dynamixels
-
-# Convenience name for "all" pass in the directory.
-rbx1/rbx1_dynamixels/all:
-.PHONY : rbx1/rbx1_dynamixels/all
-
-# Convenience name for "clean" pass in the directory.
-rbx1/rbx1_dynamixels/clean:
-.PHONY : rbx1/rbx1_dynamixels/clean
-
-# Convenience name for "preinstall" pass in the directory.
-rbx1/rbx1_dynamixels/preinstall:
-.PHONY : rbx1/rbx1_dynamixels/preinstall
-
-#=============================================================================
-# Directory level rules for directory rbx1/rbx1_speech
-
-# Convenience name for "all" pass in the directory.
-rbx1/rbx1_speech/all:
-.PHONY : rbx1/rbx1_speech/all
-
-# Convenience name for "clean" pass in the directory.
-rbx1/rbx1_speech/clean:
-.PHONY : rbx1/rbx1_speech/clean
-
-# Convenience name for "preinstall" pass in the directory.
-rbx1/rbx1_speech/preinstall:
-.PHONY : rbx1/rbx1_speech/preinstall
-
-#=============================================================================
-# Directory level rules for directory rbx1/rbx1_vision
-
-# Convenience name for "all" pass in the directory.
-rbx1/rbx1_vision/all:
-.PHONY : rbx1/rbx1_vision/all
-
-# Convenience name for "clean" pass in the directory.
-rbx1/rbx1_vision/clean:
-.PHONY : rbx1/rbx1_vision/clean
-
-# Convenience name for "preinstall" pass in the directory.
-rbx1/rbx1_vision/preinstall:
-.PHONY : rbx1/rbx1_vision/preinstall
-
-#=============================================================================
-# Directory level rules for directory rbx1/rbx1_apps
-
-# Convenience name for "all" pass in the directory.
-rbx1/rbx1_apps/all:
-.PHONY : rbx1/rbx1_apps/all
-
-# Convenience name for "clean" pass in the directory.
-rbx1/rbx1_apps/clean:
-.PHONY : rbx1/rbx1_apps/clean
-
-# Convenience name for "preinstall" pass in the directory.
-rbx1/rbx1_apps/preinstall:
-.PHONY : rbx1/rbx1_apps/preinstall
-
-#=============================================================================
-# Directory level rules for directory rbx1/rbx1_nav
-
-# Convenience name for "all" pass in the directory.
-rbx1/rbx1_nav/all: rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/all
-.PHONY : rbx1/rbx1_nav/all
-
-# Convenience name for "clean" pass in the directory.
-rbx1/rbx1_nav/clean: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
-rbx1/rbx1_nav/clean: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
-rbx1/rbx1_nav/clean: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
-rbx1/rbx1_nav/clean: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
-rbx1/rbx1_nav/clean: rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/clean
-rbx1/rbx1_nav/clean: rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-rbx1/rbx1_nav/clean: rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-rbx1/rbx1_nav/clean: rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : rbx1/rbx1_nav/clean
-
-# Convenience name for "preinstall" pass in the directory.
-rbx1/rbx1_nav/preinstall:
-.PHONY : rbx1/rbx1_nav/preinstall
-
-#=============================================================================
-# Target rules for target rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir
-
-# All Build rule for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/all:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
-	@echo "Built target dynamic_reconfigure_gencfg"
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-
-# Build rule for subdir invocation for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_gencfg: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : dynamic_reconfigure_gencfg
-
-# clean rule for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
-
-# clean rule for target.
-clean: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir
-
-# All Build rule for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/depend
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
-	@echo "Built target dynamic_reconfigure_generate_messages_cpp"
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_cpp: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_cpp
-
-# clean rule for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir
-
-# All Build rule for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
-	@echo "Built target dynamic_reconfigure_generate_messages_lisp"
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_lisp: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# clean rule for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir
-
-# All Build rule for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
-	@echo "Built target dynamic_reconfigure_generate_messages_py"
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_py: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_py
-
-# clean rule for target.
-rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
-.PHONY : rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir
-
-# All Build rule for target.
-rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/all:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/build.make rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/depend
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/build.make rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles  3 4
-	@echo "Built target rbx1_nav_gencfg"
-.PHONY : rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/all
-
-# Include target in all.
-all: rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-.PHONY : rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/rule
-
-# Convenience name for target.
-rbx1_nav_gencfg: rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/rule
-.PHONY : rbx1_nav_gencfg
-
-# clean rule for target.
-rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/clean:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/build.make rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/clean
-.PHONY : rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/clean
-
-# clean rule for target.
-clean: rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
-	@echo "Built target std_msgs_generate_messages_cpp"
-.PHONY : rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-.PHONY : rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# clean rule for target.
-rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
-	@echo "Built target std_msgs_generate_messages_lisp"
-.PHONY : rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-.PHONY : rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# clean rule for target.
-rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
-	@echo "Built target std_msgs_generate_messages_py"
-.PHONY : rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
-.PHONY : rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# clean rule for target.
-rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory rbx1/rbx1_description
-
-# Convenience name for "all" pass in the directory.
-rbx1/rbx1_description/all:
-.PHONY : rbx1/rbx1_description/all
-
-# Convenience name for "clean" pass in the directory.
-rbx1/rbx1_description/clean:
-.PHONY : rbx1/rbx1_description/clean
-
-# Convenience name for "preinstall" pass in the directory.
-rbx1/rbx1_description/preinstall:
-.PHONY : rbx1/rbx1_description/preinstall
 
 #=============================================================================
 # Directory level rules for directory usb_cam
@@ -716,6 +306,9 @@ usb_cam/clean: usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 usb_cam/clean: usb_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 usb_cam/clean: usb_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 usb_cam/clean: usb_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+usb_cam/clean: usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+usb_cam/clean: usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+usb_cam/clean: usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 usb_cam/clean: usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
 usb_cam/clean: usb_cam/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
 usb_cam/clean: usb_cam/CMakeFiles/std_srvs_generate_messages_py.dir/clean
@@ -734,15 +327,15 @@ usb_cam/preinstall:
 usb_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target geometry_msgs_generate_messages_cpp"
 .PHONY : usb_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -765,15 +358,15 @@ clean: usb_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 usb_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target geometry_msgs_generate_messages_lisp"
 .PHONY : usb_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -796,15 +389,15 @@ clean: usb_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 usb_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target geometry_msgs_generate_messages_py"
 .PHONY : usb_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -827,15 +420,15 @@ clean: usb_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 usb_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target roscpp_generate_messages_cpp"
 .PHONY : usb_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -858,15 +451,15 @@ clean: usb_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target roscpp_generate_messages_lisp"
 .PHONY : usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -889,15 +482,15 @@ clean: usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 usb_cam/CMakeFiles/roscpp_generate_messages_py.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/roscpp_generate_messages_py.dir/build.make usb_cam/CMakeFiles/roscpp_generate_messages_py.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/roscpp_generate_messages_py.dir/build.make usb_cam/CMakeFiles/roscpp_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target roscpp_generate_messages_py"
 .PHONY : usb_cam/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -920,15 +513,15 @@ clean: usb_cam/CMakeFiles/roscpp_generate_messages_py.dir/clean
 usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target rosgraph_msgs_generate_messages_cpp"
 .PHONY : usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -951,15 +544,15 @@ clean: usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target rosgraph_msgs_generate_messages_lisp"
 .PHONY : usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -982,15 +575,15 @@ clean: usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target rosgraph_msgs_generate_messages_py"
 .PHONY : usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1013,15 +606,15 @@ clean: usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 usb_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target sensor_msgs_generate_messages_cpp"
 .PHONY : usb_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1044,15 +637,15 @@ clean: usb_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 usb_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target sensor_msgs_generate_messages_lisp"
 .PHONY : usb_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1075,15 +668,15 @@ clean: usb_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 usb_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target sensor_msgs_generate_messages_py"
 .PHONY : usb_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1100,21 +693,114 @@ clean: usb_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
+	@echo "Built target std_msgs_generate_messages_cpp"
+.PHONY : usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
+.PHONY : usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : std_msgs_generate_messages_cpp
+
+# clean rule for target.
+usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
+	@echo "Built target std_msgs_generate_messages_lisp"
+.PHONY : usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
+.PHONY : usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : std_msgs_generate_messages_lisp
+
+# clean rule for target.
+usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
+	@echo "Built target std_msgs_generate_messages_py"
+.PHONY : usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
+.PHONY : usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : std_msgs_generate_messages_py
+
+# clean rule for target.
+usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir
 
 # All Build rule for target.
 usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target std_srvs_generate_messages_cpp"
 .PHONY : usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1137,15 +823,15 @@ clean: usb_cam/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
 usb_cam/CMakeFiles/std_srvs_generate_messages_lisp.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target std_srvs_generate_messages_lisp"
 .PHONY : usb_cam/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1168,15 +854,15 @@ clean: usb_cam/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
 usb_cam/CMakeFiles/std_srvs_generate_messages_py.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/std_srvs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/std_srvs_generate_messages_py.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/std_srvs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/std_srvs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles 
 	@echo "Built target std_srvs_generate_messages_py"
 .PHONY : usb_cam/CMakeFiles/std_srvs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/std_srvs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/std_srvs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1199,7 +885,7 @@ clean: usb_cam/CMakeFiles/std_srvs_generate_messages_py.dir/clean
 usb_cam/CMakeFiles/usb_cam.dir/all:
 	$(MAKE) -f usb_cam/CMakeFiles/usb_cam.dir/build.make usb_cam/CMakeFiles/usb_cam.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/usb_cam.dir/build.make usb_cam/CMakeFiles/usb_cam.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles  3
 	@echo "Built target usb_cam"
 .PHONY : usb_cam/CMakeFiles/usb_cam.dir/all
 
@@ -1209,9 +895,9 @@ all: usb_cam/CMakeFiles/usb_cam.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/usb_cam.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/usb_cam.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/usb_cam.dir/rule
 
 # Convenience name for target.
@@ -1234,7 +920,7 @@ clean: usb_cam/CMakeFiles/usb_cam.dir/clean
 usb_cam/CMakeFiles/usb_cam_node.dir/all: usb_cam/CMakeFiles/usb_cam.dir/all
 	$(MAKE) -f usb_cam/CMakeFiles/usb_cam_node.dir/build.make usb_cam/CMakeFiles/usb_cam_node.dir/depend
 	$(MAKE) -f usb_cam/CMakeFiles/usb_cam_node.dir/build.make usb_cam/CMakeFiles/usb_cam_node.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/iuro/catkin_ws/build/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tuniks/catkin_ws/build/CMakeFiles  4
 	@echo "Built target usb_cam_node"
 .PHONY : usb_cam/CMakeFiles/usb_cam_node.dir/all
 
@@ -1244,9 +930,9 @@ all: usb_cam/CMakeFiles/usb_cam_node.dir/all
 
 # Build rule for subdir invocation for target.
 usb_cam/CMakeFiles/usb_cam_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 usb_cam/CMakeFiles/usb_cam_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : usb_cam/CMakeFiles/usb_cam_node.dir/rule
 
 # Convenience name for target.

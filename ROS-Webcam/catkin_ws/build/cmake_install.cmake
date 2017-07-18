@@ -1,8 +1,8 @@
-# Install script for directory: /home/iuro/catkin_ws/src
+# Install script for directory: /home/tuniks/catkin_ws/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/iuro/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/tuniks/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,88 +44,80 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/iuro/catkin_ws/install/_setup_util.py")
+   "/home/tuniks/catkin_ws/install/_setup_util.py")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/iuro/catkin_ws/install" TYPE PROGRAM FILES "/home/iuro/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
+FILE(INSTALL DESTINATION "/home/tuniks/catkin_ws/install" TYPE PROGRAM FILES "/home/tuniks/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/iuro/catkin_ws/install/env.sh")
+   "/home/tuniks/catkin_ws/install/env.sh")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/iuro/catkin_ws/install" TYPE PROGRAM FILES "/home/iuro/catkin_ws/build/catkin_generated/installspace/env.sh")
+FILE(INSTALL DESTINATION "/home/tuniks/catkin_ws/install" TYPE PROGRAM FILES "/home/tuniks/catkin_ws/build/catkin_generated/installspace/env.sh")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/iuro/catkin_ws/install/setup.bash")
+   "/home/tuniks/catkin_ws/install/setup.bash")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/iuro/catkin_ws/install" TYPE FILE FILES "/home/iuro/catkin_ws/build/catkin_generated/installspace/setup.bash")
+FILE(INSTALL DESTINATION "/home/tuniks/catkin_ws/install" TYPE FILE FILES "/home/tuniks/catkin_ws/build/catkin_generated/installspace/setup.bash")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/iuro/catkin_ws/install/setup.sh")
+   "/home/tuniks/catkin_ws/install/setup.sh")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/iuro/catkin_ws/install" TYPE FILE FILES "/home/iuro/catkin_ws/build/catkin_generated/installspace/setup.sh")
+FILE(INSTALL DESTINATION "/home/tuniks/catkin_ws/install" TYPE FILE FILES "/home/tuniks/catkin_ws/build/catkin_generated/installspace/setup.sh")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/iuro/catkin_ws/install/setup.zsh")
+   "/home/tuniks/catkin_ws/install/setup.zsh")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/iuro/catkin_ws/install" TYPE FILE FILES "/home/iuro/catkin_ws/build/catkin_generated/installspace/setup.zsh")
+FILE(INSTALL DESTINATION "/home/tuniks/catkin_ws/install" TYPE FILE FILES "/home/tuniks/catkin_ws/build/catkin_generated/installspace/setup.zsh")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/iuro/catkin_ws/install/.rosinstall")
+   "/home/tuniks/catkin_ws/install/.rosinstall")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/iuro/catkin_ws/install" TYPE FILE FILES "/home/iuro/catkin_ws/build/catkin_generated/installspace/.rosinstall")
+FILE(INSTALL DESTINATION "/home/tuniks/catkin_ws/install" TYPE FILE FILES "/home/tuniks/catkin_ws/build/catkin_generated/installspace/.rosinstall")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/iuro/catkin_ws/build/gtest/cmake_install.cmake")
-  INCLUDE("/home/iuro/catkin_ws/build/rbx1/rbx1/cmake_install.cmake")
-  INCLUDE("/home/iuro/catkin_ws/build/rbx1/rbx1_bringup/cmake_install.cmake")
-  INCLUDE("/home/iuro/catkin_ws/build/rbx1/rbx1_dynamixels/cmake_install.cmake")
-  INCLUDE("/home/iuro/catkin_ws/build/rbx1/rbx1_speech/cmake_install.cmake")
-  INCLUDE("/home/iuro/catkin_ws/build/rbx1/rbx1_vision/cmake_install.cmake")
-  INCLUDE("/home/iuro/catkin_ws/build/rbx1/rbx1_apps/cmake_install.cmake")
-  INCLUDE("/home/iuro/catkin_ws/build/rbx1/rbx1_nav/cmake_install.cmake")
-  INCLUDE("/home/iuro/catkin_ws/build/rbx1/rbx1_description/cmake_install.cmake")
-  INCLUDE("/home/iuro/catkin_ws/build/usb_cam/cmake_install.cmake")
+  INCLUDE("/home/tuniks/catkin_ws/build/gtest/cmake_install.cmake")
+  INCLUDE("/home/tuniks/catkin_ws/build/usb_cam/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -135,7 +127,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/iuro/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/tuniks/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/iuro/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/tuniks/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

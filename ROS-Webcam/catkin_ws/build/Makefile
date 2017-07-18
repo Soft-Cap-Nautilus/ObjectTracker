@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iuro/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/tuniks/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iuro/catkin_ws/build
+CMAKE_BINARY_DIR = /home/tuniks/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,9 +120,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles /home/iuro/catkin_ws/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles /home/tuniks/catkin_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iuro/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tuniks/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -239,123 +239,6 @@ gtest_main: cmake_check_build_system
 gtest_main/fast:
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
-
-#=============================================================================
-# Target rules for targets named _catkin_empty_exported_target
-
-# Build rule for target.
-_catkin_empty_exported_target: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	$(MAKE) -f rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/build.make rbx1/rbx1/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
-
-#=============================================================================
-# Target rules for targets named dynamic_reconfigure_gencfg
-
-# Build rule for target.
-dynamic_reconfigure_gencfg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_gencfg
-.PHONY : dynamic_reconfigure_gencfg
-
-# fast build rule for target.
-dynamic_reconfigure_gencfg/fast:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-.PHONY : dynamic_reconfigure_gencfg/fast
-
-#=============================================================================
-# Target rules for targets named dynamic_reconfigure_generate_messages_cpp
-
-# Build rule for target.
-dynamic_reconfigure_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_cpp
-.PHONY : dynamic_reconfigure_generate_messages_cpp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_cpp/fast:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named dynamic_reconfigure_generate_messages_lisp
-
-# Build rule for target.
-dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_lisp
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named dynamic_reconfigure_generate_messages_py
-
-# Build rule for target.
-dynamic_reconfigure_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_py
-.PHONY : dynamic_reconfigure_generate_messages_py
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_py/fast:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make rbx1/rbx1_nav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named rbx1_nav_gencfg
-
-# Build rule for target.
-rbx1_nav_gencfg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rbx1_nav_gencfg
-.PHONY : rbx1_nav_gencfg
-
-# fast build rule for target.
-rbx1_nav_gencfg/fast:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/build.make rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg.dir/build
-.PHONY : rbx1_nav_gencfg/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_cpp
-
-# Build rule for target.
-std_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_lisp
-
-# Build rule for target.
-std_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_py
-
-# Build rule for target.
-std_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	$(MAKE) -f rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rbx1/rbx1_nav/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_cpp
@@ -514,6 +397,45 @@ sensor_msgs_generate_messages_py/fast:
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_lisp
+
+# Build rule for target.
+std_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_py
+
+# Build rule for target.
+std_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	$(MAKE) -f usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/build.make usb_cam/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named std_srvs_generate_messages_cpp
 
 # Build rule for target.
@@ -598,15 +520,6 @@ help:
 	@echo "... tests"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... _catkin_empty_exported_target"
-	@echo "... dynamic_reconfigure_gencfg"
-	@echo "... dynamic_reconfigure_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... dynamic_reconfigure_generate_messages_py"
-	@echo "... rbx1_nav_gencfg"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
@@ -619,6 +532,9 @@ help:
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_py"

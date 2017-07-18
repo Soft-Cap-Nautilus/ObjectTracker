@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iuro/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/tuniks/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iuro/catkin_ws/build
+CMAKE_BINARY_DIR = /home/tuniks/catkin_ws/build
 
 # Utility rule file for roscpp_generate_messages_lisp.
 
@@ -56,10 +56,10 @@ usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/build: roscpp_generate_mess
 .PHONY : usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 
 usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	cd /home/iuro/catkin_ws/build/usb_cam && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/tuniks/catkin_ws/build/usb_cam && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
-	cd /home/iuro/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iuro/catkin_ws/src /home/iuro/catkin_ws/src/usb_cam /home/iuro/catkin_ws/build /home/iuro/catkin_ws/build/usb_cam /home/iuro/catkin_ws/build/usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tuniks/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tuniks/catkin_ws/src /home/tuniks/catkin_ws/src/usb_cam /home/tuniks/catkin_ws/build /home/tuniks/catkin_ws/build/usb_cam /home/tuniks/catkin_ws/build/usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : usb_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 
