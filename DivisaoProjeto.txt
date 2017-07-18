@@ -1,0 +1,25 @@
+Divisão de Tarefas no projeto final de capacitação para a equipe de Software na Nautilus UFRJ
+
+
+
+1. Implementar package no ROS que capte a imagem da câmera.
+Alyssa, Antonio e Iuri realizaram a tarefa. Todos se familiarizaram com o ambiente ROS e conseguiram abrir a webcam através de diferentes packages, como usb_cam e rbx1. Foi criado também um .sh que cria diretórios e inicializa os packages.
+
+2. Exibir em tempo real cor, centróide e contorno de objetos.
+Alyssa, Antonio, Henrique, Iuri e Leonardo conseguiram rodar o projeto em c++ que usa OpenCV para mostrar contornos, cores e centroides.
+
+3. Estimativa do tamanho do objeto
+Essa parte do trabalho foi realizada pelo Henrique, que ajeitou e melhorou um código para fazer a função desejada.
+
+4. Estimativa de distância do objeto à câmera
+Esse também foi realizado pelo Henrique, de forma similar à anterior.
+
+5. Identificador de formas
+Também foi realizado pelo Henrique, de forma similar à anterior.
+
+6. GITHUB
+Antonio criou o github para a equipe. Ele e henrique botaram os códigos criados/utilizados no repositório e documentaram individualmente cada projeto em um README.md.
+
+7. Powerpoint
+Alyssa criou a primeira versão do powerpoint. Ela, Henrique e Leonardo então aperfeiçoaram o projeto e apresentação em conjunto.
+
