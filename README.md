@@ -22,6 +22,7 @@ https://github.com/ros-drivers/usb_cam
 
 # ObjectMeasurer
 Object_size.py
+
 The program will use your webcam to scan objects and measure its width. To do that you have to have a reference object with known width being the first object show, from left to right. Then it will measure other objects.
 
 This code was written and tested in Python2.7 using OpenCV3.2.0 running on Ubuntu14.04
@@ -39,7 +40,9 @@ python object_size.py --camera 0 --width 2.5
 This project was based on:
 http://www.pyimagesearch.com/2016/03/28/measuring-size-of-objects-in-an-image-with-opencv/
 
+
 distance_to_camera.py
+
 This program uses Your webcam to scan an object and measure its distance to the camera. To do that You'll have to take a shot of the object pressing ESC in a known distance and have its width known. Then input the values in the command line to see the camera scanning the object and measuring its distance to the camera.
 
 To run this program:
