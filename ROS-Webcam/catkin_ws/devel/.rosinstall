@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/iuro/ros/catkin_ws/devel/setup.sh
